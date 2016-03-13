@@ -15,6 +15,16 @@
 		BD0BECA11C873407005580EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0BEC9F1C873407005580EC /* LaunchScreen.storyboard */; };
 		BD0BECAC1C873407005580EC /* MagicBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0BECAB1C873407005580EC /* MagicBoxTests.swift */; };
 		BD0BECB71C873407005580EC /* MagicBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0BECB61C873407005580EC /* MagicBoxUITests.swift */; };
+		BD5E62F21C94E717009EF30C /* Show.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5E62F11C94E717009EF30C /* Show.storyboard */; };
+		BD5E62F41C94E9AE009EF30C /* Yep.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5E62F31C94E9AE009EF30C /* Yep.xcassets */; };
+		BD5E62F61C94EF66009EF30C /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E62F51C94EF66009EF30C /* ShowViewController.swift */; };
+		BD5E62F91C94F0C1009EF30C /* Ruler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E62F81C94F0C1009EF30C /* Ruler.swift */; };
+		BD5E62FC1C94F257009EF30C /* ShowStepGeniusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E62FB1C94F257009EF30C /* ShowStepGeniusViewController.swift */; };
+		BD5E62FE1C94F277009EF30C /* ShowStepMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E62FD1C94F277009EF30C /* ShowStepMatchViewController.swift */; };
+		BD5E63001C94F284009EF30C /* ShowStepMeetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E62FF1C94F284009EF30C /* ShowStepMeetViewController.swift */; };
+		BD5E63021C94F64E009EF30C /* UIColor+Yep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E63011C94F64E009EF30C /* UIColor+Yep.swift */; };
+		BD5E63061C94F732009EF30C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD5E63081C94F732009EF30C /* Localizable.strings */; };
+		BD5E630E1C94FD9B009EF30C /* ShowStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E630D1C94FD9B009EF30C /* ShowStepViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,20 @@
 		BD0BECB21C873407005580EC /* MagicBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0BECB61C873407005580EC /* MagicBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxUITests.swift; sourceTree = "<group>"; };
 		BD0BECB81C873407005580EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5E62F11C94E717009EF30C /* Show.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Show.storyboard; sourceTree = "<group>"; };
+		BD5E62F31C94E9AE009EF30C /* Yep.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Yep.xcassets; sourceTree = "<group>"; };
+		BD5E62F51C94EF66009EF30C /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		BD5E62F81C94F0C1009EF30C /* Ruler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ruler.swift; sourceTree = "<group>"; };
+		BD5E62FB1C94F257009EF30C /* ShowStepGeniusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepGeniusViewController.swift; sourceTree = "<group>"; };
+		BD5E62FD1C94F277009EF30C /* ShowStepMatchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepMatchViewController.swift; sourceTree = "<group>"; };
+		BD5E62FF1C94F284009EF30C /* ShowStepMeetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepMeetViewController.swift; sourceTree = "<group>"; };
+		BD5E63011C94F64E009EF30C /* UIColor+Yep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Yep.swift"; sourceTree = "<group>"; };
+		BD5E63071C94F732009EF30C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD5E63091C94F737009EF30C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD5E630A1C94F74E009EF30C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		BD5E630B1C94F74E009EF30C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		BD5E630C1C94F74E009EF30C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		BD5E630D1C94FD9B009EF30C /* ShowStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +139,15 @@
 				BD0BEC961C873407005580EC /* AppDelegate.swift */,
 				BD0BEC981C873407005580EC /* ViewController.swift */,
 				BD0BEC9A1C873407005580EC /* Main.storyboard */,
+				BD5E62F11C94E717009EF30C /* Show.storyboard */,
+				BD5E63031C94F659009EF30C /* Extensions */,
+				BD5E62F71C94EF6A009EF30C /* Show */,
 				BD0BEC9D1C873407005580EC /* Assets.xcassets */,
+				BD5E62F31C94E9AE009EF30C /* Yep.xcassets */,
 				BD0BEC9F1C873407005580EC /* LaunchScreen.storyboard */,
 				BD0BECA21C873407005580EC /* Info.plist */,
+				BD5E63081C94F732009EF30C /* Localizable.strings */,
+				BD5E62FA1C94F0C7009EF30C /* Helper */,
 			);
 			path = MagicBox;
 			sourceTree = "<group>";
@@ -138,6 +168,34 @@
 				BD0BECB81C873407005580EC /* Info.plist */,
 			);
 			path = MagicBoxUITests;
+			sourceTree = "<group>";
+		};
+		BD5E62F71C94EF6A009EF30C /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E62F51C94EF66009EF30C /* ShowViewController.swift */,
+				BD5E630D1C94FD9B009EF30C /* ShowStepViewController.swift */,
+				BD5E62FB1C94F257009EF30C /* ShowStepGeniusViewController.swift */,
+				BD5E62FD1C94F277009EF30C /* ShowStepMatchViewController.swift */,
+				BD5E62FF1C94F284009EF30C /* ShowStepMeetViewController.swift */,
+			);
+			name = Show;
+			sourceTree = "<group>";
+		};
+		BD5E62FA1C94F0C7009EF30C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E62F81C94F0C1009EF30C /* Ruler.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		BD5E63031C94F659009EF30C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E63011C94F64E009EF30C /* UIColor+Yep.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		CF156A63AC2884BC0A0EFB55 /* Pods */ = {
@@ -238,6 +296,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = BD0BEC8A1C873407005580EC;
 			productRefGroup = BD0BEC941C873407005580EC /* Products */;
@@ -257,8 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0BECA11C873407005580EC /* LaunchScreen.storyboard in Resources */,
+				BD5E63061C94F732009EF30C /* Localizable.strings in Resources */,
 				BD0BEC9E1C873407005580EC /* Assets.xcassets in Resources */,
 				BD0BEC9C1C873407005580EC /* Main.storyboard in Resources */,
+				BD5E62F41C94E9AE009EF30C /* Yep.xcassets in Resources */,
+				BD5E62F21C94E717009EF30C /* Show.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +393,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5E62F91C94F0C1009EF30C /* Ruler.swift in Sources */,
+				BD5E62FE1C94F277009EF30C /* ShowStepMatchViewController.swift in Sources */,
+				BD5E63021C94F64E009EF30C /* UIColor+Yep.swift in Sources */,
 				BD0BEC991C873407005580EC /* ViewController.swift in Sources */,
 				BD0BEC971C873407005580EC /* AppDelegate.swift in Sources */,
+				BD5E62F61C94EF66009EF30C /* ShowViewController.swift in Sources */,
+				BD5E62FC1C94F257009EF30C /* ShowStepGeniusViewController.swift in Sources */,
+				BD5E630E1C94FD9B009EF30C /* ShowStepViewController.swift in Sources */,
+				BD5E63001C94F284009EF30C /* ShowStepMeetViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +441,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BD0BEC9B1C873407005580EC /* Base */,
+				BD5E630A1C94F74E009EF30C /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -380,8 +450,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				BD0BECA01C873407005580EC /* Base */,
+				BD5E630B1C94F74E009EF30C /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BD5E63081C94F732009EF30C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5E63071C94F732009EF30C /* en */,
+				BD5E63091C94F737009EF30C /* Base */,
+				BD5E630C1C94F74E009EF30C /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
