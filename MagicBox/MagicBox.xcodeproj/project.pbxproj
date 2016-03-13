@@ -25,6 +25,7 @@
 		BD5E63021C94F64E009EF30C /* UIColor+Yep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E63011C94F64E009EF30C /* UIColor+Yep.swift */; };
 		BD5E63061C94F732009EF30C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD5E63081C94F732009EF30C /* Localizable.strings */; };
 		BD5E630E1C94FD9B009EF30C /* ShowStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E630D1C94FD9B009EF30C /* ShowStepViewController.swift */; };
+		BD5E63131C959815009EF30C /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E63121C959815009EF30C /* SpringAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		BD5E630B1C94F74E009EF30C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		BD5E630C1C94F74E009EF30C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BD5E630D1C94FD9B009EF30C /* ShowStepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStepViewController.swift; sourceTree = "<group>"; };
+		BD5E630F1C958B6C009EF30C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		BD5E63121C959815009EF30C /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,7 @@
 				BD0BEC981C873407005580EC /* ViewController.swift */,
 				BD0BEC9A1C873407005580EC /* Main.storyboard */,
 				BD5E62F11C94E717009EF30C /* Show.storyboard */,
+				BD5E630F1C958B6C009EF30C /* MyPlayground.playground */,
 				BD5E63031C94F659009EF30C /* Extensions */,
 				BD5E62F71C94EF6A009EF30C /* Show */,
 				BD0BEC9D1C873407005580EC /* Assets.xcassets */,
@@ -186,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				BD5E62F81C94F0C1009EF30C /* Ruler.swift */,
+				BD5E63121C959815009EF30C /* SpringAnimation.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 				BD0BEC971C873407005580EC /* AppDelegate.swift in Sources */,
 				BD5E62F61C94EF66009EF30C /* ShowViewController.swift in Sources */,
 				BD5E62FC1C94F257009EF30C /* ShowStepGeniusViewController.swift in Sources */,
+				BD5E63131C959815009EF30C /* SpringAnimation.swift in Sources */,
 				BD5E630E1C94FD9B009EF30C /* ShowStepViewController.swift in Sources */,
 				BD5E63001C94F284009EF30C /* ShowStepMeetViewController.swift in Sources */,
 			);
