@@ -53,6 +53,7 @@ class ShowViewController: UIViewController {
         steps = [stepA, stepB, stepC]
         
         scrollView.delegate = self
+        scrollView.contentInset = UIEdgeInsetsZero
         
         pageControl.numberOfPages = steps.count
         pageControl.currentPageIndicatorTintColor = UIColor.yepTintColor()
@@ -73,7 +74,7 @@ class ShowViewController: UIViewController {
             "stepC": stepC.view,
         ]
         
-        let vConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[stepA(==view)]|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: viewsDictionary)
+        let vConstraints = NSLayoutConstraint.constraintsWithVisualFormat("V:|[stepA(==view)]|", options: [], metrics: nil, views: viewsDictionary)
         
         NSLayoutConstraint.activateConstraints(vConstraints)
         
