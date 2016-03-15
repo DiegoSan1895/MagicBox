@@ -84,10 +84,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/AVOSCloudDynamic/iOS/release-v3.2.7/Dynamic/AVOSCloud.framework"
   install_framework "Pods-MagicBox/Alamofire.framework"
+  install_framework "Pods-MagicBox/IBAnimatable.framework"
+  install_framework "Pods-MagicBox/IQKeyboardManagerSwift.framework"
+  install_framework "Pods-MagicBox/SVProgressHUD.framework"
   install_framework "Pods-MagicBox/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/AVOSCloudDynamic/iOS/release-v3.2.7/Dynamic/AVOSCloud.framework"
   install_framework "Pods-MagicBox/Alamofire.framework"
+  install_framework "Pods-MagicBox/IBAnimatable.framework"
+  install_framework "Pods-MagicBox/IQKeyboardManagerSwift.framework"
+  install_framework "Pods-MagicBox/SVProgressHUD.framework"
   install_framework "Pods-MagicBox/SnapKit.framework"
 fi

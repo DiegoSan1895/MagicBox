@@ -6,6 +6,11 @@ use_frameworks!
 target 'MagicBox' do
     pod ‘Alamofire’
     pod 'SnapKit'
+    pod 'IBAnimatable'
+    #pod 'SDCycleScrollView'
+    pod 'AVOSCloudDynamic'
+    pod 'IQKeyboardManagerSwift'
+    pod 'SVProgressHUD'
 end
 
 target 'MagicBoxTests' do
