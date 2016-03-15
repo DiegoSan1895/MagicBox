@@ -15,6 +15,16 @@
 		BD0BECA11C873407005580EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0BEC9F1C873407005580EC /* LaunchScreen.storyboard */; };
 		BD0BECAC1C873407005580EC /* MagicBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0BECAB1C873407005580EC /* MagicBoxTests.swift */; };
 		BD0BECB71C873407005580EC /* MagicBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0BECB61C873407005580EC /* MagicBoxUITests.swift */; };
+		BD3352421C979C9A00516299 /* KeepShow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3352411C979C9A00516299 /* KeepShow.storyboard */; };
+		BD3352441C979D7B00516299 /* KeepShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3352431C979D7B00516299 /* KeepShowViewController.swift */; };
+		BD33524B1C97A38F00516299 /* Video.html in Resources */ = {isa = PBXBuildFile; fileRef = BD33524A1C97A38F00516299 /* Video.html */; };
+		BD33524D1C97A7D500516299 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = BD33524C1C97A7D500516299 /* cities.json */; };
+		BD33524F1C97A97300516299 /* intro_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BD33524E1C97A97300516299 /* intro_video.mp4 */; };
+		BD3352511C97C5B100516299 /* Keep.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3352501C97C5B100516299 /* Keep.xcassets */; };
+		BD3352531C981D9300516299 /* KeepRegisterStep1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3352521C981D9300516299 /* KeepRegisterStep1ViewController.swift */; };
+		BD3352561C981E9100516299 /* UIColor+Keep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3352551C981E9100516299 /* UIColor+Keep.swift */; };
+		BD33525D1C985AD800516299 /* NSString+JudgeThePhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = BD33525C1C985AD800516299 /* NSString+JudgeThePhoneNumber.m */; };
+		BD33525F1C985E5100516299 /* KeepRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33525E1C985E5100516299 /* KeepRegisterViewController.swift */; };
 		BD5E62F21C94E717009EF30C /* Show.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5E62F11C94E717009EF30C /* Show.storyboard */; };
 		BD5E62F41C94E9AE009EF30C /* Yep.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5E62F31C94E9AE009EF30C /* Yep.xcassets */; };
 		BD5E62F61C94EF66009EF30C /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5E62F51C94EF66009EF30C /* ShowViewController.swift */; };
@@ -62,6 +72,18 @@
 		BD0BECB21C873407005580EC /* MagicBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0BECB61C873407005580EC /* MagicBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBoxUITests.swift; sourceTree = "<group>"; };
 		BD0BECB81C873407005580EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3352411C979C9A00516299 /* KeepShow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeepShow.storyboard; sourceTree = "<group>"; };
+		BD3352431C979D7B00516299 /* KeepShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepShowViewController.swift; sourceTree = "<group>"; };
+		BD33524A1C97A38F00516299 /* Video.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Video.html; sourceTree = "<group>"; };
+		BD33524C1C97A7D500516299 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		BD33524E1C97A97300516299 /* intro_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro_video.mp4; sourceTree = "<group>"; };
+		BD3352501C97C5B100516299 /* Keep.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Keep.xcassets; sourceTree = "<group>"; };
+		BD3352521C981D9300516299 /* KeepRegisterStep1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepRegisterStep1ViewController.swift; sourceTree = "<group>"; };
+		BD3352551C981E9100516299 /* UIColor+Keep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Keep.swift"; sourceTree = "<group>"; };
+		BD3352571C985A6E00516299 /* MagicBox-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicBox-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD33525B1C985AD800516299 /* NSString+JudgeThePhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JudgeThePhoneNumber.h"; sourceTree = "<group>"; };
+		BD33525C1C985AD800516299 /* NSString+JudgeThePhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JudgeThePhoneNumber.m"; sourceTree = "<group>"; };
+		BD33525E1C985E5100516299 /* KeepRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeepRegisterViewController.swift; sourceTree = "<group>"; };
 		BD5E62F11C94E717009EF30C /* Show.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Show.storyboard; sourceTree = "<group>"; };
 		BD5E62F31C94E9AE009EF30C /* Yep.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Yep.xcassets; sourceTree = "<group>"; };
 		BD5E62F51C94EF66009EF30C /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
@@ -143,14 +165,17 @@
 				BD0BEC981C873407005580EC /* ViewController.swift */,
 				BD0BEC9A1C873407005580EC /* Main.storyboard */,
 				BD5E62F11C94E717009EF30C /* Show.storyboard */,
+				BD3352411C979C9A00516299 /* KeepShow.storyboard */,
 				BD5E630F1C958B6C009EF30C /* MyPlayground.playground */,
 				BD5E63031C94F659009EF30C /* Extensions */,
 				BD5D22AA1C9637FF00EE398F /* Controllers */,
 				BD0BEC9D1C873407005580EC /* Assets.xcassets */,
 				BD5E62F31C94E9AE009EF30C /* Yep.xcassets */,
+				BD3352501C97C5B100516299 /* Keep.xcassets */,
 				BD0BEC9F1C873407005580EC /* LaunchScreen.storyboard */,
 				BD0BECA21C873407005580EC /* Info.plist */,
 				BD5E63081C94F732009EF30C /* Localizable.strings */,
+				BD3352471C979DDC00516299 /* Support */,
 				BD5E62FA1C94F0C7009EF30C /* Helper */,
 			);
 			path = MagicBox;
@@ -174,10 +199,39 @@
 			path = MagicBoxUITests;
 			sourceTree = "<group>";
 		};
+		BD3352451C979D7F00516299 /* KeepShow */ = {
+			isa = PBXGroup;
+			children = (
+				BD3352431C979D7B00516299 /* KeepShowViewController.swift */,
+			);
+			name = KeepShow;
+			sourceTree = "<group>";
+		};
+		BD3352471C979DDC00516299 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BD33524E1C97A97300516299 /* intro_video.mp4 */,
+				BD33524A1C97A38F00516299 /* Video.html */,
+				BD33524C1C97A7D500516299 /* cities.json */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		BD3352541C981D9B00516299 /* KeepRegister */ = {
+			isa = PBXGroup;
+			children = (
+				BD33525E1C985E5100516299 /* KeepRegisterViewController.swift */,
+				BD3352521C981D9300516299 /* KeepRegisterStep1ViewController.swift */,
+			);
+			name = KeepRegister;
+			sourceTree = "<group>";
+		};
 		BD5D22AA1C9637FF00EE398F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BD3352541C981D9B00516299 /* KeepRegister */,
 				BD5E62F71C94EF6A009EF30C /* Show */,
+				BD3352451C979D7F00516299 /* KeepShow */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -199,6 +253,9 @@
 			children = (
 				BD5E62F81C94F0C1009EF30C /* Ruler.swift */,
 				BD5E63121C959815009EF30C /* SpringAnimation.swift */,
+				BD33525B1C985AD800516299 /* NSString+JudgeThePhoneNumber.h */,
+				BD33525C1C985AD800516299 /* NSString+JudgeThePhoneNumber.m */,
+				BD3352571C985A6E00516299 /* MagicBox-Bridging-Header.h */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -207,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				BD5E63011C94F64E009EF30C /* UIColor+Yep.swift */,
+				BD3352551C981E9100516299 /* UIColor+Keep.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -329,9 +387,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD0BECA11C873407005580EC /* LaunchScreen.storyboard in Resources */,
+				BD3352421C979C9A00516299 /* KeepShow.storyboard in Resources */,
 				BD5E63061C94F732009EF30C /* Localizable.strings in Resources */,
 				BD0BEC9E1C873407005580EC /* Assets.xcassets in Resources */,
+				BD33524B1C97A38F00516299 /* Video.html in Resources */,
 				BD0BEC9C1C873407005580EC /* Main.storyboard in Resources */,
+				BD33524F1C97A97300516299 /* intro_video.mp4 in Resources */,
+				BD3352511C97C5B100516299 /* Keep.xcassets in Resources */,
+				BD33524D1C97A7D500516299 /* cities.json in Resources */,
 				BD5E62F41C94E9AE009EF30C /* Yep.xcassets in Resources */,
 				BD5E62F21C94E717009EF30C /* Show.storyboard in Resources */,
 			);
@@ -406,13 +469,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD3352531C981D9300516299 /* KeepRegisterStep1ViewController.swift in Sources */,
+				BD33525D1C985AD800516299 /* NSString+JudgeThePhoneNumber.m in Sources */,
 				BD5E62F91C94F0C1009EF30C /* Ruler.swift in Sources */,
 				BD5E62FE1C94F277009EF30C /* ShowStepMatchViewController.swift in Sources */,
 				BD5E63021C94F64E009EF30C /* UIColor+Yep.swift in Sources */,
+				BD3352441C979D7B00516299 /* KeepShowViewController.swift in Sources */,
+				BD33525F1C985E5100516299 /* KeepRegisterViewController.swift in Sources */,
 				BD0BEC991C873407005580EC /* ViewController.swift in Sources */,
 				BD0BEC971C873407005580EC /* AppDelegate.swift in Sources */,
 				BD5E62F61C94EF66009EF30C /* ShowViewController.swift in Sources */,
 				BD5E62FC1C94F257009EF30C /* ShowStepGeniusViewController.swift in Sources */,
+				BD3352561C981E9100516299 /* UIColor+Keep.swift in Sources */,
 				BD5E63131C959815009EF30C /* SpringAnimation.swift in Sources */,
 				BD5E630E1C94FD9B009EF30C /* ShowStepViewController.swift in Sources */,
 				BD5E63001C94F284009EF30C /* ShowStepMeetViewController.swift in Sources */,
@@ -570,10 +638,13 @@
 			baseConfigurationReference = 874737165BD38B5156E9DE28 /* Pods-MagicBox.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MagicBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DiegoSan.MagicBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicBox/MagicBox-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -582,10 +653,12 @@
 			baseConfigurationReference = 093AE41EB654B960C98AE0A7 /* Pods-MagicBox.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MagicBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DiegoSan.MagicBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicBox/MagicBox-Bridging-Header.h";
 			};
 			name = Release;
 		};

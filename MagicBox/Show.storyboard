@@ -56,6 +56,9 @@
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="d2D-DL-l0T">
                                 <rect key="frame" x="168" y="560" width="39" height="37"/>
+                                <connections>
+                                    <action selector="pageControllClick:" destination="UqE-De-RGO" eventType="valueChanged" id="xXG-Dm-rKo"/>
+                                </connections>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -209,7 +212,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhx-Fz-QIo">
-                                <rect key="frame" x="142.5" y="458" width="89.5" height="48"/>
+                                <rect key="frame" x="142" y="458" width="89.5" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" red="0.17254901959999999" green="0.38823529410000002" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -222,7 +225,16 @@
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="97e-5m-NVT">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="458"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Camera" translatesAutoresizingMaskIntoConstraints="NO" id="e2u-vL-pII">
+                                        <rect key="frame" x="152" y="206.5" width="71" height="45"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="e2u-vL-pII" firstAttribute="centerY" secondItem="97e-5m-NVT" secondAttribute="centerY" id="F8q-Pw-4AC"/>
+                                    <constraint firstItem="e2u-vL-pII" firstAttribute="centerX" secondItem="97e-5m-NVT" secondAttribute="centerX" id="rIY-A5-xTA"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -335,6 +347,7 @@
     </scenes>
     <resources>
         <image name="Book" width="71" height="100"/>
+        <image name="Camera" width="71" height="45"/>
         <image name="Head" width="133" height="169"/>
         <image name="Oval4" width="15" height="15"/>
         <image name="Oval_big" width="73" height="58"/>

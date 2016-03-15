@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVOSCloud
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        startShowStory()
+
+        startKeepShowStory()
+        registerLeanCloudForKeep()
+        
+        IQKeyboardManager.sharedManager().enable = true
+        //startShowStory()
         return true
     }
 
@@ -28,6 +34,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootVC = storyBoard.instantiateViewControllerWithIdentifier("ShowNavigationController") as! UINavigationController
         
         window?.rootViewController = rootVC
+    }
+    
+    func startKeepShowStory() {
+        
+        let storyBoard = UIStoryboard(name: "KeepShow", bundle: nil)
+        let rootVC = storyBoard.instantiateViewControllerWithIdentifier("KeepShowNavigationController") as! UINavigationController
+        
+        window?.rootViewController = rootVC
+    }
+    
+    func registerLeanCloudForKeep() {
+        AVOSCloud.setApplicationId("P2TV0oFGF5V9R86yjKMfkKLP-gzGzoHsz", clientKey: "EVJwwftsr1oBQ4bugEmp65G3")
     }
     
     func startMainStory() {

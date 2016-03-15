@@ -23,11 +23,22 @@ class ShowViewController: UIViewController {
     @IBOutlet weak var pageControl: UIPageControl!
     
     private var steps = [ShowStepViewController]()
+    
+    private var timer: NSTimer!
     // MARK: - Actions
     
     @IBAction func login(sender: UIButton) {
+        
     }
+    
     @IBAction func register(sender: UIButton) {
+        
+    }
+    
+    @IBAction func pageControllClick(sender: UIPageControl) {
+        
+        scrollView.setContentOffset(CGPoint(x: CGFloat(sender.currentPage) * scrollView.bounds.width, y: 0), animated: true)
+
     }
     
     // MARK: - LifeCycle
@@ -45,6 +56,48 @@ class ShowViewController: UIViewController {
         
         
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        startTimer()
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        stopTimer()
+    }
+    
+    private func startTimer() {
+        
+        timer = NSTimer(timeInterval: 3.0, target: self, selector: "nextPage:", userInfo: nil, repeats: true)
+        
+        NSRunLoop.mainRunLoop().addTimer(timer, forMode: NSRunLoopCommonModes)
+        timer.fire()
+    }
+    
+    private func stopTimer() {
+        
+        timer.invalidate()
+    }
+    
+    @objc private func nextPage(timer: NSTimer) {
+        
+        let nextPage = pageControl.currentPage + 1
+        
+        if nextPage >= steps.count {
+            
+            pageControl.currentPage = 0
+        }else {
+            
+            pageControl.currentPage = nextPage
+        }
+        
+        pageControllClick(pageControl)
+        
+    }
+    
     private func setUpUI() {
         
         let stepA = stepGenius()
