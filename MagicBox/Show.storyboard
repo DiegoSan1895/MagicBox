@@ -274,23 +274,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover them around you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0F-RM-LIS">
-                                <rect key="frame" x="87" y="526" width="201" height="21"/>
+                                <rect key="frame" x="87" y="526" width="200.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xgv-zv-fOa">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="458"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="458.5"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="G42-Qu-Whc">
-                                        <rect key="frame" x="242" y="171" width="71" height="100"/>
+                                        <rect key="frame" x="152" y="179.5" width="71" height="100"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="G42-Qu-Whc" secondAttribute="trailing" constant="62" id="0FT-H5-lgz"/>
+                                    <constraint firstItem="G42-Qu-Whc" firstAttribute="centerX" secondItem="Xgv-zv-fOa" secondAttribute="centerX" id="FdM-gC-uJg"/>
                                     <constraint firstItem="G42-Qu-Whc" firstAttribute="top" secondItem="Xgv-zv-fOa" secondAttribute="top" constant="171" id="Peo-0g-VNu"/>
+                                    <constraint firstItem="G42-Qu-Whc" firstAttribute="centerY" secondItem="Xgv-zv-fOa" secondAttribute="centerY" id="ig5-0d-FRh"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="0FT-H5-lgz"/>
+                                        <exclude reference="Peo-0g-VNu"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

@@ -145,7 +145,7 @@
 				BD5E62F11C94E717009EF30C /* Show.storyboard */,
 				BD5E630F1C958B6C009EF30C /* MyPlayground.playground */,
 				BD5E63031C94F659009EF30C /* Extensions */,
-				BD5E62F71C94EF6A009EF30C /* Show */,
+				BD5D22AA1C9637FF00EE398F /* Controllers */,
 				BD0BEC9D1C873407005580EC /* Assets.xcassets */,
 				BD5E62F31C94E9AE009EF30C /* Yep.xcassets */,
 				BD0BEC9F1C873407005580EC /* LaunchScreen.storyboard */,
@@ -172,6 +172,14 @@
 				BD0BECB81C873407005580EC /* Info.plist */,
 			);
 			path = MagicBoxUITests;
+			sourceTree = "<group>";
+		};
+		BD5D22AA1C9637FF00EE398F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD5E62F71C94EF6A009EF30C /* Show */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		BD5E62F71C94EF6A009EF30C /* Show */ = {
