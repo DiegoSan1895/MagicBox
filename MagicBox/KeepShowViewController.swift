@@ -11,7 +11,6 @@ import AVFoundation
 import AVKit
 import MediaPlayer
 import IBAnimatable
-import SDCycleScrollView
 import AVOSCloud
 
 class KeepShowViewController: UIViewController {
@@ -76,6 +75,7 @@ class KeepShowViewController: UIViewController {
         player.controlStyle = .None
         player.shouldAutoplay = true
         player.repeatMode = .One
+        player.scalingMode = MPMovieScalingMode.AspectFill
         
         player.prepareToPlay()
         player.view.frame = view.bounds

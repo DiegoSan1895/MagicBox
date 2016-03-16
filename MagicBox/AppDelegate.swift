@@ -18,10 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
-        startKeepShowStory()
+        //startKeepShowStory()
         registerLeanCloudForKeep()
         
-        IQKeyboardManager.sharedManager().enable = true
         //startShowStory()
         return true
     }
@@ -52,5 +51,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
     }
 }
-
-    
+   
