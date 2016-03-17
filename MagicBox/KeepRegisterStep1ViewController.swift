@@ -9,6 +9,7 @@
 import UIKit
 import IBAnimatable
 import SVProgressHUD
+import AVOSCloud
 
 class KeepRegisterStep1ViewController: KeepRegisterViewController {
 
@@ -27,12 +28,25 @@ class KeepRegisterStep1ViewController: KeepRegisterViewController {
             return
         }
         
-        if !NSString.isMobileNumber(text) && !isShowingToastView{
-            
-            showToastView()
+        if !NSString.isMobileNumber(text) {
+            if !isShowingToastView{
+                showToastView()
+            }else{
+                return
+            }
         }else{
-            SVProgressHUD.show()
+            //SVProgressHUD.show()
             
+            let user = AVUser()
+            user.mobilePhoneNumber = text
+            user.password = "Beyond"
+            user.username = "DiegoSan"
+            
+            user.signUpInBackgroundWithBlock({ (success, error) -> Void in
+                let step2VC = self.storyboard?.instantiateViewControllerWithIdentifier("KeepRegisterStep2ViewController") as! KeepRegisterStep2ViewController
+                
+                self.navigationController?.pushViewController(step2VC, animated: true)
+            })
         }
         
     }
@@ -42,7 +56,8 @@ class KeepRegisterStep1ViewController: KeepRegisterViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setUpUI()
+        getCodeButton.backgroundColor = UIColor.keepGetCodeButtonColor()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -51,23 +66,7 @@ class KeepRegisterStep1ViewController: KeepRegisterViewController {
         
     }
     
-    private func setUpUI() {
         
-        view.backgroundColor = UIColor.keepRegisterBackgroundColor()
-        navigationController?.navigationBar.barTintColor = UIColor.keepNagigationBarColor()
-        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        navigationController?.navigationBar.barStyle = .Black
-        
-        navigationController?.navigationBar.hidden = false
-        
-        title = NSLocalizedString("Register", comment: "")
-        
-        navigationController?.navigationBar.items?.first?.title = ""
-        
-        getCodeButton.backgroundColor = UIColor.keepGetCodeButtonColor()
-        
-    }
-    
     private func showToastView() {
         
         isShowingToastView = true
